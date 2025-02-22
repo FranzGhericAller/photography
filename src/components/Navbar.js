@@ -14,7 +14,7 @@ export default function Navbar() {
     <nav className="flex justify-between items-center p-5 bg-white dark:bg-gray-900 shadow-md">
       {/* Branding - "Opus Creations" with Default Font */}
       <h1 className="text-2xl font-semibold text-gray-900 dark:text-white tracking-wide">
-       OPUS CREATIONS
+       Franz Gheric.
       </h1>
 
       {/* Dark/Light Mode Toggle */}
