@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Elegant font */
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* Smooth transitions */
+.dark-mode-transition {
+  transition: all 0.5s ease-in-out;
+}
+
+/* Custom styling */
+.hero-overlay {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent);
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
